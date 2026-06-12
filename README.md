@@ -2,6 +2,11 @@
 
 **The Zernio of crypto payments.** One payment link. Any token, any chain. Settles in USDC on Base.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmaxtop1988%2Fpayinbox)
+
+**Live demo:** https://nightlife-execute-concepts-shot.trycloudflare.com
+**GitHub:** https://github.com/maxtop1988/payinbox
+
 ## What it does
 
 Merchant creates a payment link with an amount + their USDC wallet. Customer clicks the link, picks whatever token they have (USDC on Polygon, ETH on Base, SOL, etc.), and pays. We bridge to USDC on Base. 1% fee.
