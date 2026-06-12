@@ -4,7 +4,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmaxtop1988%2Fpayinbox)
 
-**Live demo:** https://nightlife-execute-concepts-shot.trycloudflare.com
+**Live demo:** https://robot-reviewer-preceding-limited.trycloudflare.com
 **GitHub:** https://github.com/maxtop1988/payinbox
 
 ## What it does
