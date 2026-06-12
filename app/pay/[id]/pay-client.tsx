@@ -95,9 +95,10 @@ export function PayClient(props: Props) {
             integrator="payinbox"
             toChain={settleChainId}
             toToken={settleTokenAddress}
-            toAddress={{ name: "PayInbox merchant", address: recipientWallet }}
+            toAddress={{ chainType: "EVM" as any, address: recipientWallet, name: "PayInbox merchant" }}
             toAmount={merchantReceivesRaw}
             variant="wide"
+            subvariant="default"
             appearance="dark"
             feeConfig={{
               name: "PayInbox",
@@ -105,16 +106,8 @@ export function PayClient(props: Props) {
               showFeePercentage: true,
               showFeeTooltip: true,
             }}
-            hiddenUI={{
-              appearance: true,
-              language: true,
-              poweredBy: true,
-              // Customer can pick ANY from-chain/from-token, but cannot change destination.
-            }}
-            disabledUI={{
-              toToken: true,
-              toAddress: true,
-            }}
+            hiddenUI={["appearance", "language", "poweredBy"] as any}
+            disabledUI={["toToken", "toAddress"] as any}
             theme={{
               container: {
                 borderRadius: "24px",
